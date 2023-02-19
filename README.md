@@ -2,7 +2,7 @@
 demo of pico w ble using nordic spp example
 assumes pico-sdk is installed from https://github.com/raspberrypi/pico-sdk
 
-once you get it running put your own routine:
+once you get it running, put your own routine:
 
      1) edit blink.c
      2) on function nordic_spp_packet_handler:
@@ -17,6 +17,9 @@ once you get it running put your own routine:
   I have tested this with nRF Connect for Mobile (android app) from Google Playstore
   also I have tested this with flutter app, source available here --> http://pinoysa.us/picow_ble
   after installing the flutter app make sure you allow location permission by going to settings, apps, click on your app, click on permissions and allow locations
+  
+  You need to edit CMakeLists.txt to reflect your own environment settings.
+  
   
   Troubleshooting - try the forum --> https://forums.raspberrypi.com/viewforum.php?f=145&sid=1f7ed8f7d8fdb3b9413e41d17b5ea206
   
