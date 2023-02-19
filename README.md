@@ -15,7 +15,8 @@ once you get it running put your own routine:
           here I'm just toggling pico w led by sending small letter t from ble app
           
   I have tested this with nRF Connect for Mobile (android app) from Google Playstore
-  also I have tested this with flutter app available here --> http://pinoysa.us/picow_ble
+  also I have tested this with flutter app, source available here --> http://pinoysa.us/picow_ble
+  after installing the flutter app make sure you allow location permission by going to settings, apps, click on your app, click on permissions and allow locations
   
   Troubleshooting - try the forum --> https://forums.raspberrypi.com/viewforum.php?f=145&sid=1f7ed8f7d8fdb3b9413e41d17b5ea206
   
