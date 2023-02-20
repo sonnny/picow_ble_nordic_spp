@@ -12,7 +12,7 @@ make
 
 you should have blink.uf2 under build directory
 press bootsel button of the pico w
-while pressing boot button, short run (pin 30) to ground momentarily
+while pressing bootsel button, short run (pin 30) to ground momentarily
 rp2 should mount as storage
 copy blink.uf2 to rp2
 after done copying, rp2 should start executing the code
