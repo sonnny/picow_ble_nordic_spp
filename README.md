@@ -3,6 +3,25 @@ demo of pico w ble using nordic spp example
 assumes pico-sdk is installed from https://github.com/raspberrypi/pico-sdk
 
 ```
+git clone https://github.com/sonnny/picow_ble_nordic_spp
+cd picow_ble_nordic_spp
+mkdir build
+cd build
+cmake ..
+make
+
+you should have blink.uf2 under build directory
+press bootsel button of the pico w
+while pressing boot button, short run (pin 30) to ground momentarily
+rp2 should mount as storage
+copy blink.uf2 to rp2
+after done copying, rp2 should start executing the code
+
+```
+
+
+
+```
 once you get it running, put your own routine:
 
      1) edit blink.c
