@@ -42,7 +42,7 @@ once you get it running, put your own routine:
           
   Tested this with nRF Connect for Mobile (android app) from Google Playstore
   
-  Tested this with flutter app, source available here --> http://pinoysa.us/picow_ble
+  Tested this with flutter app, source in the flutter folder
   after installing the flutter app make sure you allow location permission by going to settings, apps, click on your app, click on permissions and allow locations
 
 ```
