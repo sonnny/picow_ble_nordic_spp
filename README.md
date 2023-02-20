@@ -2,6 +2,8 @@
 demo of pico w ble using nordic spp example
 assumes pico-sdk is installed from https://github.com/raspberrypi/pico-sdk
 
+  You need to edit CMakeLists.txt to reflect your own environment settings.
+
 ```
 git clone https://github.com/sonnny/picow_ble_nordic_spp
 cd picow_ble_nordic_spp
