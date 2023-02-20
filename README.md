@@ -12,9 +12,12 @@ cd build
 cmake ..
 make
 
-you should have blink.uf2 under build directory
-press bootsel button of the pico w
-while pressing bootsel button, short run (pin 30) to ground momentarily
+a) you should have blink.uf2 under build directory
+b) press bootsel button of the pico w
+c) while pressing bootsel button, short run (pin 30) to ground momentarily
+d) release bootsel button
+
+if the rp2 does not show up as storage, depending on your os give it time to enumate the usb, otherwise repeat c and d above
 rp2 should mount as storage
 copy blink.uf2 to rp2
 after done copying, rp2 should start executing the code
